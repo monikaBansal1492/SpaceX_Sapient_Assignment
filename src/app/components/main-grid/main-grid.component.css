@@ -27,13 +27,13 @@
  .card-head{
      color: darkblue;
      font-weight: bold;
-     font-size: 1.25rem;
+     font-size: 1rem;
  }
 
 .card-text {
     text-align: left;
     padding:0.625rem;
-    color: lightseagreen;
+    color: #0E625C;
 }
 
 .card-text div {
