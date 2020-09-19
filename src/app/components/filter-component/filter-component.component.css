@@ -1,0 +1,32 @@
+.filter-sub-section{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.main-heading {
+    font-weight: bold;
+    font-size:18px;
+    margin: 5px 0 0 5px;
+
+}
+.green-btn-active {
+    font-weight: bold;
+    background-color: green;
+}
+.green-btn-inactive {
+    font-weight: normal;
+    background-color: lightgreen;
+}
+
+.green-btn{
+    padding: 3px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 15px;
+    display: inline-block;
+}
+
+.filter-sub-section hr {
+    width: 60%;
+}

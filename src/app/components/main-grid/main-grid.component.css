@@ -1,0 +1,39 @@
+.card {
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    height: 452px;
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+
+.card-img {
+    width: 207px;
+    height: 225px;
+    background-color: grey;
+}
+
+.label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+ .card-head{
+     color: darkblue;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+.card-text {
+    text-align: left;
+    padding:10px;
+    color: lightseagreen;
+}
+
+.card-text div {
+    margin-top:10px;
+}

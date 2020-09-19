@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+
+.container {
+    display: inline-flex;
+}
+
+.container div {
+    display: inline-block;
+}
+
+.filter-grid {
+    width: 15%;
+    height: 600px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.main-grid {
+    width: 75%;
+    height: 600px;
+    border-radius: 5px;
+    margin:6px;
+}
+

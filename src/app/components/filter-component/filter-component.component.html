@@ -1,0 +1,27 @@
+<div class="main-heading">Filters</div>
+<div class="filter-sub-section">
+    <div>Launch Year</div>
+    <hr>
+</div>
+
+<div class="button-grid">
+    <button *ngFor = "let year of yearArray" [ngClass]="(filters['launch_year']===year)?'green-btn-active':'green-btn-inactive '" class="green-btn" (click) = "applyFilter('launch_year', year)">{{year}}</button>
+</div>
+
+<div class="filter-sub-section">
+    <div>Successful Launch</div>
+    <hr>
+</div>
+<div class="button-grid">
+    <button (click) = "applyFilter('launch_success', true)" [ngClass]="(filters['launch_success']===true)?'green-btn-active':'green-btn-inactive '" class="green-btn">True</button>
+    <button (click) = "applyFilter('launch_success', false)" [ngClass]="(filters['launch_success']===false)?'green-btn-active':'green-btn-inactive '" class="green-btn">False</button>
+</div>
+
+<div class="filter-sub-section">
+    <div>Successful Landing</div>
+    <hr>
+</div>
+<div class="button-grid">
+    <button (click) = "applyFilter('land_success', true)" [ngClass]="(filters['land_success']===true)?'green-btn-active':'green-btn-inactive '" class="green-btn">True</button>
+    <button (click) = "applyFilter('land_success', false)" [ngClass]="(filters['land_success']===false)?'green-btn-active':'green-btn-inactive '" class="green-btn">False</button>
+</div>

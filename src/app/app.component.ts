@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'space-x';
+  event;
+  getFilterValue(event) {
+    this.event = event;
+  }
 }
