@@ -35,7 +35,6 @@ export class MainGridComponent implements OnInit, OnChanges, OnDestroy{
   }
 
   ngOnDestroy() {
-    console.log('inside ngonds');
     this.spaceResponse.unsubscribe();
   }
 
