@@ -22,10 +22,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('space-x');
   });
 
-  it('should render title', () => {
+  it('should call getFilterValue', () => {
     const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('space-x app is running!');
+    const app = fixture.componentInstance;
+    app.getFilterValue(true);
+    expect(app.event).toBeTruthy();
   });
 });

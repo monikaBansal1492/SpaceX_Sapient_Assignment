@@ -13,16 +13,15 @@ export class MainGridComponent implements OnInit, OnChanges, OnDestroy{
   constructor(private spacexDataService: SpaceXDataService) { }
 
   ngOnChanges() {
-    console.log('filter input found: ', this.filterInput);
     let params = '';
-    for(let key in this.filterInput) {
-      if(this.filterInput[key]){
+    for (const key in this.filterInput) {
+      if (this.filterInput[key]){
         params += `&${key}=${this.filterInput[key]}`;
       }
     }
 
-    if(this.filterInput) {
-      this.spacexDataService.getSpaceXData(params).subscribe((response)=>{
+    if (this.filterInput) {
+      this.spacexDataService.getSpaceXData(params).subscribe((response) => {
         this.spaceXResponse = response;
       });
     }

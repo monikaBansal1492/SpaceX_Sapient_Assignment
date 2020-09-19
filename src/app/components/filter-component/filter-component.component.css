@@ -1,12 +1,12 @@
 .filter-sub-section{
     text-align: center;
-    margin: 10px 0;
+    margin: .625rem 0;
 }
 
 .main-heading {
     font-weight: bold;
-    font-size:18px;
-    margin: 5px 0 0 5px;
+    font-size:1.125rem;
+    margin: .3125rem 0 0 .3125rem;
 
 }
 .green-btn-active {
@@ -19,11 +19,11 @@
 }
 
 .green-btn{
-    padding: 3px 25px;
+    padding: .1875rem 1.5625rem;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: .3125rem;
     border: none;
-    margin: 5px 15px;
+    margin: .3125rem .8437rem;
     display: inline-block;
 }
 

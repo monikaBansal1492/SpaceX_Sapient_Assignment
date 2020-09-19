@@ -17,7 +17,7 @@ h1 {
 }
 
 .filter-grid {
-    width: 15%;
+    width: 13.8rem;
     height: 600px;
     background-color: white;
     border-radius: 5px;
@@ -25,9 +25,25 @@ h1 {
 }
 
 .main-grid {
-    width: 75%;
+    width: 54rem;
     height: 600px;
     border-radius: 5px;
     margin:6px;
 }
 
+@media only screen and (max-width: 600px) {
+    .container {
+        display: block;
+    }
+    .filter-grid, .main-grid {
+        display: block;
+    }
+
+    .filter-grid {
+        width: 98%;
+    }
+    .main-grid {
+        width: 100%;
+    }
+
+  }
