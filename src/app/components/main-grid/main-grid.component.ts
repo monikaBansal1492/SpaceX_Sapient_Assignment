@@ -22,14 +22,21 @@ export class MainGridComponent implements OnInit, OnChanges, OnDestroy{
 
     if (this.filterInput) {
       this.spacexDataService.getSpaceXData(params).subscribe((response) => {
+        if (Object.keys(response).length === 0){
+           response = null;
+        }
         this.spaceXResponse = response;
       });
     }
   }
 
   ngOnInit(): void {
-    this.spaceResponse = this.spacexDataService.getSpaceXData(null).subscribe((response)=>{
-          this.spaceXResponse = response;
+    this.spaceResponse = this.spacexDataService.getSpaceXData(null).subscribe((response) => {
+      if (Object.keys(response).length === 0){
+        response = null;
+     }
+      this.spaceXResponse = response;
+
     });
   }
 
