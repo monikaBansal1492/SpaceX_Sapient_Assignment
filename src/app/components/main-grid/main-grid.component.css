@@ -25,7 +25,7 @@
     color: black;
 }
  .card-head{
-     color: darkblue;
+     color: #58609e;
      font-weight: bold;
      font-size: 1rem;
  }
@@ -33,14 +33,14 @@
 .card-text {
     text-align: left;
     padding:0.625rem;
-    color: #0E625C;
+    color: #9aa1c3;
 }
 
 .card-text div {
     margin-top:0.625rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
    .card {
        width: 87%;
    }

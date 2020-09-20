@@ -11,20 +11,20 @@
 }
 .green-btn-active {
     font-weight: bold;
-    background-color: green;
+    background-color: #7cba01;
 }
 .green-btn-inactive {
     font-weight: normal;
-    background-color: lightgreen;
+    background-color: #c5e09b;
 }
 
 .green-btn{
-    padding: .1875rem 1.5625rem;
-    font-weight: bold;
-    border-radius: .3125rem;
-    border: none;
-    margin: .3125rem .8437rem;
-    display: inline-block;
+       font-weight: 700;
+       border-radius: .3125rem;
+       border: none;
+       display: inline-block;
+       width: 5rem;
+       margin: .5rem 0.95rem;
 }
 
 .filter-sub-section hr {

@@ -13,7 +13,7 @@ import { HttpClientModule} from '@angular/common/http';
     MainGridComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule
   ],
   providers: [SpaceXDataService],
